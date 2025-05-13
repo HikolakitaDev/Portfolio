@@ -24,8 +24,6 @@ createRoot(document.getElementById('root')!).render(
     <Skills />
     <SectionTitle sectionTitle="Awards" txt="I'm proud to have received the following awards:"/>
     <Award />
-    <SectionTitle sectionTitle="Plans" txt="If you need my services, you can choose between these three options:"/>
-    <Tarif />
     <SectionTitle sectionTitle='Contact' txt='Feel free to contact me if you have any questions or inquiries.'/>
     <ContactForm />
     <Footer /> 
