@@ -11,8 +11,8 @@ function App() {
         <Square />
         <p className='introducing-text'>Hey, I'm a</p>
         <p className='main-text'>Frontend<br/><span>Developer</span></p>
-        <p className="description">I’m a self-made frontend developer,<br/>currently Freelancing.</p>
-        <button className="get-in-touch">Get in touch</button>
+        <p className="description">I’m a self-made frontend developer,<br/>always learning.</p>
+        <button className="get-in-touch"><a href="https://discord.gg/eRVwMNYPaz" target='_blank' style={{textDecoration: 'none', color: 'white'}}>Get in touch</a></button>
         <div className="blobContainer">
           <VisualSVG />
         </div>

@@ -12,9 +12,9 @@ const ContactForm: React.FC = () => {
     subject: '',
     message: '',
   });
-  const serviceID = import.meta.env.REACT_APP_EMAILJS_SERVICE_ID;
-  const templateID = import.meta.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-  const userID = import.meta.env.REACT_APP_EMAILJS_USER_ID;
+  const serviceID = import.meta.env.VITE_REACT_APP_EMAILJS_SERVICE_ID;
+  const templateID = import.meta.env.VITE_REACT_APP_EMAILJS_TEMPLATE_ID;
+  const userID = import.meta.env.VITE_REACT_APP_EMAILJS_USER_ID;
   console.log(serviceID, templateID, userID);
 
   const [open, setOpen] = React.useState({ open: false, message: "", severity: "success" });
@@ -212,12 +212,6 @@ const ContactForm: React.FC = () => {
               >
                 hikolakita.dev@gmail.com
               </Button>
-            </Box>
-            <Divider sx={{ my: 3 }} />
-            <Typography variant="h6" gutterBottom>Chat with me:</Typography>
-            <Box sx={{ display: 'flex', gap: 0.4 }}>
-              <IconButton aria-label="WhatsApp" size="large"><WhatsappIcon /></IconButton>
-              <IconButton aria-label="GitHub" size="large"><GithubIcon /></IconButton>
             </Box>
           </Grid>
         </Grid>

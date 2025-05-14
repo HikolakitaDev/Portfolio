@@ -18,14 +18,22 @@ createRoot(document.getElementById('root')!).render(
     <ResponsiveAppBar />
     <App />
     <Card />
-    <SectionTitle sectionTitle="Projects" txt="I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between."/>
-    <Projects />
-    <SectionTitle sectionTitle="Skills" txt="After 3 years of web developement, here are some skills that I have acquired."/>
-    <Skills />
-    <SectionTitle sectionTitle="Awards" txt="I'm proud to have received the following awards:"/>
-    <Award />
-    <SectionTitle sectionTitle='Contact' txt='Feel free to contact me if you have any questions or inquiries.'/>
-    <ContactForm />
+    <section id="projects-section">
+      <SectionTitle sectionTitle="Projects" txt="I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between."/>
+      <Projects />
+    </section>
+    <section id="skills-section">
+      <SectionTitle sectionTitle="Skills" txt="After 3 years of web developement, here are some skills that I have acquired."/>
+      <Skills />
+    </section>
+    <section id="awards-section">
+      <SectionTitle sectionTitle="Awards" txt="I'm proud to have received the following awards:"/>
+      <Award />
+    </section>
+    <section id="contact-section">
+      <SectionTitle sectionTitle='Contact' txt='Feel free to contact me if you have any questions or inquiries.'/>
+      <ContactForm />
+    </section>
     <Footer /> 
   </StrictMode>,
 )

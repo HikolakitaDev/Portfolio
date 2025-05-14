@@ -16,9 +16,9 @@ function Card() {
                 <p className='hikolakita-text'>Hikolakita</p>
                 <p className="card-description">An indepedent frontend developer based in France.</p>
                 <div className="logos-container">
-                    <img src={YoutubeLogo} alt="Youtube" className='logos' />
-                    <img src={GithubLogo} alt="Github" className='logos' />
-                    <img src={DevLogo} alt="Dev" className='logos' />
+                    <a href="https://www.youtube.com/@Hikolakita3" target='_blank' style={{textDecoration: 'none'}}><img src={YoutubeLogo} alt="Youtube" className='logos' /></a>
+                    <a href="https://github.com/HikolakitaDev" target='_blank' style={{textDecoration: 'none'}}><img src={GithubLogo} alt="Github" className='logos' /></a>
+                    <a href="https://dev.to/hikolakita" target='_blank' style={{textDecoration: 'none'}}><img src={DevLogo} alt="Dev" className='logos' /></a>
                 </div>
 
             </div>
