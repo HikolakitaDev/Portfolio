@@ -1,0 +1,1 @@
+import{j as e}from"./vendor-BIlEoP7U.js";const t=()=>e.jsx("footer",{className:"footer-container",children:e.jsx("div",{className:"footer-content",children:e.jsx("p",{className:"footer-text",children:"© 2025 Hikolakita | Made with Material UI & React"})})});export{t as default};
